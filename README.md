@@ -1,6 +1,7 @@
 <p align="center">
   <img src="assets/banner.png" alt="User Authentication System Banner" width="100%">
 </p>
+
 # 🔐 User Authentication System
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -15,18 +16,18 @@ A secure and scalable REST API built using **Node.js**, **Express.js**, **MongoD
 
 ## 🚀 Features
 
-- User Registration
-- User Login
-- JWT Authentication
-- Protected Routes
-- Password Hashing
-- Role-Based Authorization
-- Email Validation
-- Password Validation
-- Logout API
-- CRUD Operations
-- MongoDB Integration
-- REST API
+- ✅ User Registration
+- ✅ User Login
+- ✅ JWT Authentication
+- ✅ Protected Routes
+- ✅ Password Hashing
+- ✅ Role-Based Authorization
+- ✅ Email Validation
+- ✅ Password Validation
+- ✅ Logout API
+- ✅ CRUD Operations
+- ✅ MongoDB Integration
+- ✅ RESTful API Design
 
 ---
 
@@ -45,40 +46,52 @@ A secure and scalable REST API built using **Node.js**, **Express.js**, **MongoD
 ## 📂 Project Structure
 
 ```text
-config/
-controllers/
-middleware/
-models/
-routes/
-server.js
-package.json
+User Authentication System/
+│
+├── assets/
+│   └── banner.png
+├── config/
+├── controllers/
+├── middleware/
+├── models/
+├── routes/
+├── .gitignore
+├── package.json
+├── README.md
+└── server.js
 ```
 
 ---
 
 ## ⚙️ Installation
 
+### Clone the repository
+
 ```bash
 git clone https://github.com/Princekasaudhan-web/USER_Authentication_System.git
 ```
+
+### Navigate to the project
 
 ```bash
 cd USER_Authentication_System
 ```
 
+### Install dependencies
+
 ```bash
 npm install
 ```
 
-Create a `.env` file:
+### Create a `.env` file
 
 ```env
 PORT=5000
-MONGO_URI=your_database_url
+MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 ```
 
-Run the server:
+### Start the development server
 
 ```bash
 npm run dev
@@ -88,10 +101,10 @@ npm run dev
 
 ## 🔐 Authentication
 
-Use JWT Token:
+Use a JWT token for protected routes.
 
 ```text
-Authorization: Bearer YOUR_TOKEN
+Authorization: Bearer YOUR_JWT_TOKEN
 ```
 
 ---
@@ -100,13 +113,25 @@ Authorization: Bearer YOUR_TOKEN
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| POST | /api/auth/register | Register User |
-| POST | /api/auth/login | Login User |
-| POST | /api/auth/logout | Logout |
-| GET | /api/users | Get All Users |
-| GET | /api/users/:id | Get User |
-| PUT | /api/users/:id | Update User |
-| DELETE | /api/users/:id | Delete User |
+| POST | `/api/auth/register` | Register User |
+| POST | `/api/auth/login` | Login User |
+| POST | `/api/auth/logout` | Logout User |
+| GET | `/api/users` | Get All Users |
+| GET | `/api/users/:id` | Get User by ID |
+| PUT | `/api/users/:id` | Update User |
+| DELETE | `/api/users/:id` | Delete User |
+
+---
+
+## 🔒 Security Features
+
+- Password Hashing using bcrypt
+- JWT Authentication
+- Protected Routes
+- Role-Based Access Control
+- Environment Variables
+- Email Validation
+- Strong Password Validation
 
 ---
 
@@ -117,8 +142,9 @@ Authorization: Bearer YOUR_TOKEN
 - Reset Password
 - Refresh Token
 - Docker Support
-- Swagger Documentation
-- Unit Testing
+- Swagger API Documentation
+- Unit Testing (Jest)
+- Two-Factor Authentication (2FA)
 
 ---
 
@@ -126,7 +152,11 @@ Authorization: Bearer YOUR_TOKEN
 
 **Prince Kasaudhan**
 
-GitHub:
+GitHub:  
 https://github.com/Princekasaudhan-web
 
-⭐ If you like this project, give it a star.
+---
+
+## ⭐ Support
+
+If you found this project helpful, please consider giving it a **⭐ Star** on GitHub.
