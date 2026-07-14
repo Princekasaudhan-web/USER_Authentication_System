@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/banner.png" alt="User Authentication System Banner" width="100%">
+</p>
 # 🔐 User Authentication System
 
 A secure and scalable REST API built using **Node.js**, **Express.js**, **MongoDB**, **JWT**, and **bcrypt**.
