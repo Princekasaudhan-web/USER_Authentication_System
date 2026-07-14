@@ -148,6 +148,27 @@ Authorization: Bearer YOUR_JWT_TOKEN
 
 ---
 
+## 📷 API Screenshots
+
+### User Registration
+
+![Register](screenshots/register.png)
+
+---
+
+### User Login
+
+![Login](screenshots/login.png)
+
+---
+
+### Get All Users
+
+![Users](screenshots/get-users.png)
+
+---
+
+
 ## 👨‍💻 Author
 
 **Prince Kasaudhan**
