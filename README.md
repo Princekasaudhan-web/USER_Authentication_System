@@ -3,6 +3,12 @@
 </p>
 # 🔐 User Authentication System
 
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![bcrypt](https://img.shields.io/badge/bcrypt-00599C?style=for-the-badge)
+
 A secure and scalable REST API built using **Node.js**, **Express.js**, **MongoDB**, **JWT**, and **bcrypt**.
 
 ---
