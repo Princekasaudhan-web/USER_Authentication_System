@@ -150,21 +150,23 @@ Authorization: Bearer YOUR_JWT_TOKEN
 
 ## 📸 API Screenshots
 
-### 👤 User Registration
+### User Registration
 
 ![Register](assets/screenshots/register.png)
 
 ---
 
-### 🔑 User Login
+### User Login
 
 ![Login](assets/screenshots/login.png)
 
 ---
 
-### 👤 User Profile (Protected Route)
+### Get All Users
 
-![Profile](assets/screenshots/profile.png)
+![Get Users](assets/screenshots/get-users.png)
+
+
 
 ## 👨‍💻 Author
 
