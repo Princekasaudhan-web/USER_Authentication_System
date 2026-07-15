@@ -154,6 +154,14 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNTI3MTNkY
 
 ---
 
+## 📮 Postman Collection
+
+Import the collection below into Postman.
+
+```
+postman/User Authentication System.postman_collection.json
+```
+
 # 🔒 Security Features
 
 - Password Hashing using bcrypt
