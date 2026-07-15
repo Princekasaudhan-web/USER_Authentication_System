@@ -162,6 +162,30 @@ Import the collection below into Postman.
 postman/User Authentication System.postman_collection.json
 ```
 
+
+
+## 📚 Documentation
+
+Swagger UI:
+
+http://localhost:5000/api-docs
+
+---
+
+## 📮 Postman Collection
+
+Import the Postman collection from:
+
+postman/User Authentication System.postman_collection.json
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+ 
 # 🔒 Security Features
 
 - Password Hashing using bcrypt
